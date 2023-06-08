@@ -18,6 +18,7 @@ func main() {
 	default:
 		fmt.Println("none")
 	}
+	num()
 }
 
 func num(){
