@@ -21,7 +21,7 @@ func main() {
 	num()
 }
 
-func num(){
+func num() {
 	input := 2
 	switch input {
 	case 1:

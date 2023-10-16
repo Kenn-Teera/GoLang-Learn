@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func zerovalue(ivalue int){
+func zerovalue(ivalue int) {
 	ivalue = 0
 }
 
-func zeropointer(ipointer *int){
+func zeropointer(ipointer *int) {
 	*ipointer = 0
 }
 
@@ -18,6 +18,6 @@ func main() {
 	fmt.Println("i from func zerovalue = ", i)
 
 	zeropointer(&i)
-	fmt.Println("i from func zeropointer = ",i)
-	fmt.Println("i from addess = ",&i)
+	fmt.Println("i from func zeropointer = ", i)
+	fmt.Println("i from addess = ", &i)
 }

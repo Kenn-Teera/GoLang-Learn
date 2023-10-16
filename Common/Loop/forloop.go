@@ -7,18 +7,18 @@ func main() {
 
 	i := 0
 	for i < 10 {
-		fmt.Println("i =",i)
+		fmt.Println("i =", i)
 		i++
 	}
 
 	for j := 0; j < count; j++ {
-		fmt.Println("j = ",j)
+		fmt.Println("j = ", j)
 	}
 
 	var input string
 	for {
 		fmt.Scanf("%s", &input)
-		fmt.Println("input = ",input)
+		fmt.Println("input = ", input)
 		if input == "exit" {
 			break
 		}
